@@ -13,3 +13,4 @@ def read_hello():
 @app.get('/item/{id}')
 def read_item(id:int):
     return {"item":id}
+    
